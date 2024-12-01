@@ -1,18 +1,27 @@
 # Salesforce DX Project: Working With Data In LWC
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+NDevelop Lightning web components that interact with data in your Salesforce org.
 
-## How Do You Plan to Deploy Your Changes?
+## Use Lightning Data Service to Work with Data
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Build solutions that include lightning-record-*-form base components.
+Use Lightning Data Service (LDS) wire adapters  to read data.
+Use Lightning Data Service (LDS) functions to modify data.
 
-## Configure Your Salesforce DX Project
+## Use Apex to Work with Data
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Recognize when you need to use Apex to work with Salesforce data.
+Call Apex in 2 different ways.
+Work with lists of records using Apex and lightning-datatable.
 
-## Read All About It
+## Handle Server Errors
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Handle server errors that occur when you wire a property.
+Handle server errors that occur when you wire a function.
+Handle server errors that occur when you call an LDS function or Apex imperatively.
+Identify the recommended way to interact with data and handle errors for a specific use case.
+
+
+- [TrailHead Module Link for Reference]
+
+(https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-and-salesforce-data?trailmix_creator_id=journeytosalesforce&trailmix_slug=all-about-lwc)
